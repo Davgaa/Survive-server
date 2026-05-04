@@ -1,0 +1,46 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# Unity imported demos / samples / recovery
+Assets/_Recovery/
+Assets/Samples/
+Assets/Scripts*.zip
+Assets/TextMesh Pro/Examples & Extras/
+Assets/FishNet/Demos/
+Assets/Dark_Brown_GUI_kit/Demo.unity
+Assets/Dark_Brown_GUI_kit/Demo.unity.meta
+Assets/Fantasy Wooden GUI  Free/Scene/
+
+# Build output
+Survive_Data/
+Survive_BurstDebugInformation_DoNotShip/
+Survive.x86_64
+UnityPlayer.so
+libdecor-0.so.0
+libdecor-cairo.so
+*.so
+*.exe
+
+# IDE / editor files
+.vs/
+.idea/
+.vscode/
+*.csproj
+*.slnx
+*.sln
+*.user
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+
+# OS files
+.DS_Store
+Thumbs.db
