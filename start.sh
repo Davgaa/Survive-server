@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-./LocalLInuxServer.x86_64 -batchmode -nographics
+./Survive-server.x86_64 -batchmode -nographics

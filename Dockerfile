@@ -14,7 +14,7 @@ RUN apt-get update && apt-get install -y \
 
 COPY . .
 
-RUN chmod +x LocalLInuxServer.x86_64
+RUN chmod +x Survive-server.x86_64
 RUN chmod +x start.sh
 
 CMD ["./start.sh"]
