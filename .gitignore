@@ -1,0 +1,35 @@
+```gitignore id="x84e5q"
+# Unnecessary Unity server backup/debug folders
+Survive-server_BackUpThisFolder_ButDontShipItWithYourGame/
+Survive_BurstDebugInformation_DoNotShip/
+DoNotShip/
+
+# Unity generated junk
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+MemoryCaptures/
+Recordings/
+
+# IDE / editor
+.vs/
+.idea/
+.vscode/
+*.csproj
+*.sln
+*.user
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+
+# OS junk
+Thumbs.db
+.DS_Store
+desktop.ini
+```
