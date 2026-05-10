@@ -92,6 +92,12 @@ namespace JamesFrowen.SimpleWeb
                 Log.Warn($"ReceiveLoop IOException\n{e.Message}", false);
                 queue.Enqueue(new Message(conn.connId, e));
             }
+            catch (AggregateException e) when (e.InnerException is SocketException inner)
+            {
+                // connection timeout or refused — treat same as SocketException
+                Log.Warn($"ReceiveLoop AggregateException (SocketException)\n{inner.Message}", false);
+                queue.Enqueue(new Message(conn.connId, e));
+            }
             catch (InvalidDataException e)
             {
                 Log.Error($"Invalid data from {conn}: {e.Message}");
